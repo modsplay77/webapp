@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="saludo">Hola</string>
+    <string name="user">Tu e-mail</string>
+    <string name="ingresar">Entrar</string>
+    <string name="email">Tu e-mail</string>
+</resources>

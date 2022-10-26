@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Modsplay.eu</string>
+    <string name="saludo">Hola</string>
+    <string name="user">Login</string>
+    <string name="ingresar">Entrar</string>
+    <string name="email">Tu e-mail</string>
+</resources>
