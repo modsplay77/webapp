@@ -14,6 +14,25 @@ header {
 	position: fixed;
 
 }
+
+
+#nav{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    background-color: blue;
+    margin-top: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    top: 40px;
+    z-index: 9999;
+    text-decoration: none;
+    overflow: hidden;
+}
 a{
 	text-decoration: none;
 
@@ -25,7 +44,7 @@ a:hover{
 
 	width: auto;
 	height: auto;
-	margin-top: 100px;
+	margin-top: 120px;
 	padding: 10px;
 	text-align: center;
 	background-color: #fffbd5;
@@ -67,17 +86,7 @@ a:hover{
 }
 
 
-#ints{
-	width: content-box;
-	height: auto;
-	margin: auto;
-	padding: 30px;
-	text-align: center;
-	text-justify: unset;
 
-
-
-}
 
 #cont{
 	width: 100%;

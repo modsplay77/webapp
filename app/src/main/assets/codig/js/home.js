@@ -1,5 +1,5 @@
-window.onload=inicio;
-menu_visible=false;
+/*window.onload=inicio;
+menu_visible=true;
 function inicio(){
 	document.getElementById("burger").onclick=menu;
 	
@@ -17,8 +17,8 @@ function menu(){
 		
 	}
 	
-	document.getElementById("links").style.backgroundColor="darkgrey";
+	document.getElementById("links").style.backgroundColor="white";
 	
 	
 }
-
+*/

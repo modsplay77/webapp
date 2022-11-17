@@ -1,6 +1,6 @@
 
 window.onload=inicio2;
-menu_visible=false
+menu_visible=true
 
 
 

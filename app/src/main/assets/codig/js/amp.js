@@ -3,7 +3,7 @@ window.onload=inicio;
 var j=imagenes.length;
 var indice;
 var lista_prod=[];
-menu_visible=false;
+/*menu_visible=true;*/
 
 
 function inicio(){
@@ -98,7 +98,7 @@ function teclado(k){      //moverse con el cursor//
     }
 }
 
-
+/*
 function menu(){
     if (menu_visible==false){
         document.getElementById("links").style.visibility="visible";
@@ -111,7 +111,7 @@ function menu(){
     }
     document.getElementById("links").style.backgroundColor="darkgrey";
 }
-
+*/
 
 
 

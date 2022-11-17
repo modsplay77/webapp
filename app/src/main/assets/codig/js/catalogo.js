@@ -1,10 +1,10 @@
 
 
 window.onload=inicio;
-menu_visible=false;
+/*menu_visible=true;*/
 
 
-
+	
 function inicio(){
 
     document.getElementById("web1").onclick=open;
