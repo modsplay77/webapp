@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Modsplay.eu</string>
+    <string name="saludo">Hi</string>
+    <string name="user">Your e-mail</string>
+
+    <string name="ingresar">Go!</string>
+
+</resources>

@@ -1,0 +1,184 @@
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+body {
+    margin:0;
+    background-color: white;
+
+}
+header {
+    display: flex;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color: white;
+}
+.icono{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+#capzalera {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	width: 100%;
+    height: 60px;
+	/*border:solid 1px #0066FF;*/
+	background:#003;
+	background-image:url(../../img/logo.jpg);
+	background-position: left;
+	background-repeat:no-repeat;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+
+}
+.contacte{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:100%; height:60px;
+   position: absolute;
+    padding: 10px;
+    right: 100px;
+}
+#tel{
+    color: ghostwhite;
+    font-size: 20px;
+   
+    
+}
+
+
+#face{
+    width:30px;
+    height:30px;
+    background-color: dodgerblue;
+    border-radius: 10px 10px 10px;
+    position: absolute;
+    top:10px;
+    right: 15px;
+
+}
+#face:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+#burger{
+    display: flex;
+    width:auto;
+    height: auto;
+    position: fixed;
+    justify-content: left;
+    border-right-style: dotted;
+    border-right-color: black;
+    background-color: #fffbd5;
+    box-shadow: #fffbd5;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#burger:hover{
+    cursor:pointer;
+}
+#inicio{
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top:10px;
+    left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#nav{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: rebeccapurple;
+    margin-top: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    top: 60px;
+    z-index: 9999;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+a{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    justify-content:center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.activo{
+
+    border-right-style: double;
+    border-right-color: black;
+   
+}
+#contacto{
+    border-right-style: groove;
+}
+#links{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: fantasy;
+    margin: auto;
+    font-weight: bolder;
+    flex-direction: row;
+    visibility: hidden;
+    padding: 2px;
+    text-align: center;
+    background-color: white;
+
+
+
+    
+}
+ a:hover{
+    text-decoration:none;
+     color:black;
+
+}
+
+#peu{
+    display: flex;
+	width:100%; height:20px;
+	background:#003;
+	
+    position: fixed;
+    bottom:0;
+
+}
+
+#menupeus{
+    text-align: center;
+    color: crimson;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
